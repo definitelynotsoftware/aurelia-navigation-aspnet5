@@ -1,10 +1,6 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
-using Microsoft.AspNet.Builder;
-using Microsoft.AspNet.Http;
+﻿using Microsoft.AspNet.Builder;
 using Microsoft.Framework.DependencyInjection;
+using Microsoft.AspNet.StaticFiles;
 
 namespace WebApplication7
 {
@@ -17,9 +13,10 @@ namespace WebApplication7
 
         public void Configure(IApplicationBuilder app)
         {
-            app.Run(async (context) =>
+            app.UseFileServer(new FileServerOptions
             {
-                await context.Response.WriteAsync("Hello World!");
+                EnableDefaultFiles = true,
+                EnableDirectoryBrowsing = true,
             });
         }
     }
