@@ -10,6 +10,7 @@ export class App {
     this.router = router;
   }
 }
+
 //import { inject } from 'aurelia-framework';
 //import { HttpClientExtensions } from 'core/CoreHelpers'
 //import { Router, RouterConfiguration } from 'aurelia-router';

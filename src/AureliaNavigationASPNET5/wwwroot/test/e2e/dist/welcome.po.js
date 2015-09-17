@@ -1,4 +1,4 @@
-﻿'use strict';
+'use strict';
 
 Object.defineProperty(exports, '__esModule', {
     value: true
@@ -49,7 +49,7 @@ var PageObject_Welcome = (function () {
                 return browser.switchTo().alert().then(
                 // use alert.accept instead of alert.dismiss which results in a browser crash
                 function (alert) {
-                    alert.accept(); return true;
+                    alert.accept();return true;
                 }, function () {
                     return false;
                 });

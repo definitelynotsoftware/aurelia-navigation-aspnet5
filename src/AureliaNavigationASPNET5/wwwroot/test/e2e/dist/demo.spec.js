@@ -1,4 +1,4 @@
-﻿'use strict';
+'use strict';
 
 var _welcomePoJs = require('./welcome.po.js');
 
