@@ -1,14 +1,10 @@
 # aurelia-navigation-aspnet5
 
-A sample ASP.NET 5 & Aurelia navigation skeleton project.
+A sample ASP.NET 5 & Aurelia navigation skeleton project (0.18.1) for Visual Studio 2015.
 
-This basic starter project joins together the **ASP.NET 5 Empty Web Preview Template** with the essential parts of the [Aurelia/Skeleton-Navigation] (https://github.com/aurelia/skeleton-navigation). (inspired by the excellent "Aurelia Hello World with ASP.NET 5" blog post from OdeToCode).
+This basic starter project joins together VS 2015's **ASP.NET 5 Empty Web Preview Template** with the essential parts of the [Aurelia/Skeleton-Navigation] (https://github.com/aurelia/skeleton-navigation). (inspired by the excellent "Aurelia Hello World with ASP.NET 5" blog post from [OdeToCode](http://odetocode.com/blogs/scott/archive/2015/04/07/aurelia-hello-world-with-asp-net-5.aspx)). 
 
-
-As Aurelia is still currently in development things could get a little wonky, so I'll try to keep this project in working condition.
-
-
-_From the Aurelia skeleton navigation instructions_:
+> To keep up to date on [Aurelia](http://www.aurelia.io/), please visit and subscribe to [the official blog](http://blog.durandal.io/).
 
 You may need to verify you installed jspm and then run jspm install from the folder above wwwroot prior to build.
 
@@ -18,6 +14,8 @@ You may need to verify you installed jspm and then run jspm install from the fol
   ```shell
   npm install
   ```
+  - note that this first build process may take quite awhile
+  
 3. Ensure that [Gulp](http://gulpjs.com/) is installed. If you need to install it, use the following command:
 
   ```shell
